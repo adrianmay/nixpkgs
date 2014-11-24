@@ -387,6 +387,10 @@ self : let callPackage = x : y : modifyPrio (newScope self x y); in
 
   cgrep = callPackage ../development/libraries/haskell/cgrep {};
 
+  cgroupsWebappDraft = callPackage ../../../cgroups-webapp {};
+
+  cgroupsWebapp = callPackage ../servers/cgroups-webapp {};
+
   charset = callPackage ../development/libraries/haskell/charset {};
 
   charsetdetectAe = callPackage ../development/libraries/haskell/charsetdetect-ae {};
