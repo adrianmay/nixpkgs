@@ -34,7 +34,7 @@ with pkgs.lib;
     };
 
     security.sudo.enable = true;
-    networking.firewall.enable = false;
+    # networking.firewall.enable = false;
 
   };
 }
