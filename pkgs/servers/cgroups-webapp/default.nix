@@ -7,8 +7,8 @@ cabal.mkDerivation (self: {
   version = "0.1.0.1";
   src = fetchgit {
     url = "https://github.com/adrianmay/cgroups-webapp.git";
-    sha256 = "8ebcb51ba98b4b13bb55a6a7dd6751d4cfba17c4426f76e2d01b7c585118bb2f";
-    rev = "7d852a943fe64e768a25e8812b6c30597f5f87ab";
+    sha256 = "1690742dc818695b5838935975537d1692cbbec39b87fd3e4f2952e9670214ef";
+    rev = "4d2ac040673e9a7c859d2baba2a3011d1acecfc3";
   };
   isLibrary = false;
   isExecutable = true;
